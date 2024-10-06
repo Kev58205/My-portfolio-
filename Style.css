@@ -1,0 +1,127 @@
+margin: 0px;
+  padding: 0px;
+  border-box: box-sizing;
+}
+body {
+  background-image: url("pexels-iriser-1366957.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.container {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+.container h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: white;
+  padding: 10px;
+  text-shadow: 4px 3px 6px yellow;
+  text-align: center;
+  
+}
+.container h1:hover {
+  color: red;
+  text-shadow: 4px 3px 6px white;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1.0s;
+  transition-property: all;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: px;
+  
+}
+.navbar a {
+  text-decoration: none;
+  margin-left: 0px;
+  padding-top: 30px;
+  padding: 20px;
+  Color: cyan;
+  font-size: 30px;
+}
+.navbar a:hover {
+  text-decoration: none;
+  color: yellow;
+  font-size: 25px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px cyan;
+}
+
+
+.main { 
+  flex-direction: rows;
+  display: flex;
+  alig-items: center;
+  color: yellow;
+  padding:30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  justify-content: space-between;
+  background-image: url("pexels-barcelos_fotos-1484908-2859616.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.me { 
+  padding: 20px;
+  width:300px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-image: url("2024092412175157.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 3px 3px cyan;
+  
+}
+.box {
+  display: block;
+  padding: 10px;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  color: lightblue;
+}
+.box .box2 {
+  display: block;
+  padding: 10px;
+  font-size: 30 px;
+  font-family: fantasy;
+  font-weight: bold;
+  color: white;
+  text-shadow: 4px 3px 6px yellow;
+}
+.box .box2 button {
+  button-size: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 0px 5px 5px yellow;
+  font-size: 15px;
+  font-family: ariel;
+  font-weight: bold;
+}
+.box .box2 button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 0px 5px 5px red;
+  font-size: 20px;
+  transition: 0.5s;
+  transition-duration: 0.8s;
+}
